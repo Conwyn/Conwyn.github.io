@@ -2,4 +2,4 @@
 
 ![Image of fast.ai logo](images/logo.png)
 
-## There is nothing new in IT until ... [link to fast.ai](https://www.fast.ai). 
+## There is nothing new in IT until ... [FAST AI](https://www.fast.ai). 

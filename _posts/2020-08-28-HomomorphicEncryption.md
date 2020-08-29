@@ -1,3 +1,5 @@
+# Homomorphic Encryption
+
 Homomorphic Encryption is a method to encrypt data but allows addition and multiplication to be performed on the encrypted data.
 
 Integer only is described in this excellent article:
@@ -27,7 +29,7 @@ and (A0 + A1*X) * ( B0 + B1*X) = (A0*B0) + (A0*B1 + (A1*B0)*X  +(B0*B1)*X*X
 Now the polynomials will get larger so we divide by another ploymomial and keep the remainder.
 This is called a polynomial quotient ring.
 
-The first process is to generate a private and public key (tuple).
+The first process is to generate a private and public key (tuple of polynomials).
 The plain text integer becomes a polynomial M + 0*X + 0*X*X .... and then encrypted.
 The magic is the key generation includes a random number 
 

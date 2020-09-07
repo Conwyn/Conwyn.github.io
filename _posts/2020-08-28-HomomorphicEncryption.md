@@ -23,14 +23,14 @@ Next we have a second operator multiply.  3 * 6 = 18 and 6 * 6 = (36-24) = 12. 1
 So add (1+2) +3 = 1 + (2+3) and (2 * 3) * 4 = 2 * (3 * 4) and you have a ring.
 
 Moving from number to Polynomials. A polynomial is A0 + A1*X + A2*X*X + ...
-So consider (A0 + A1*X) +  (B0 + B1*X) = (A0+B0) + (A1+B1)*X 
-and (A0 + A1*X) * ( B0 + B1*X) = (A0*B0) + (A0*B1 + (A1*B0)*X  +(B0*B1)*X*X
+So consider (A0 + A1 * X) +  (B0 + B1 *  X) = (A0+B0) + (A1+B1)* X 
+and (A0 + A1 * X) * ( B0 + B1 * X) = (A0 * B0) + (A0 * B1 + (A1 * B0)*X  +(B0 * B1) * X * X
 
 Now the polynomials will get larger so we divide by another ploymomial and keep the remainder.
 This is called a polynomial quotient ring.
 
 The first process is to generate a private and public key (tuple of polynomials).
-The plain text integer becomes a polynomial M + 0*X + 0*X*X .... and then encrypted.
+The plain text integer becomes a polynomial M + 0 * X + 0 * X * X .... and then encrypted.
 The magic is the key generation includes a random number 
 
 #

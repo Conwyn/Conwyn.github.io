@@ -20,7 +20,7 @@ We have inverse so A + B = 0 means B is the oposite of A.
 Consider clock time which has a range 0 to 23.  1+2 = 3 23+3 = 2; 1+0 =1. 23+1 = 0
 
 Next we have a second operator multiply.  3*6 = 18 and 6*6 = (36-24) = 12. 1 * 6 = 6 
-So add (1+2) +3 = 1 + (2+3) and (2 * 3)* 4 = 2 * (3 * 4) and you have a ring.
+So add (1+2) +3 = 1 + (2+3) and (2 * 3) * 4 = 2 * (3 * 4) and you have a ring.
 
 Moving from number to Polynomials. A polynomial is A0 + A1*X + A2*X*X + ...
 So consider (A0 + A1*X) +  (B0 + B1*X) = (A0+B0) + (A1+B1)*X 
